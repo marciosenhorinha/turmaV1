@@ -17,5 +17,5 @@ if __name__ == '__main__':
     conta.numero = "13131-2"  
     conta.deposito(10)  
     conta.saque(50)  
-    print(conta.saldo)  
-    print(conta.numero)  
+    print("Mostra o saldo na conta: " + str(conta.saldo))
+    print("Mostra o número da conta: "+ str(conta.numero))  
